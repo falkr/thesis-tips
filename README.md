@@ -4,7 +4,7 @@
 
 The document is available in several formats:
 
-* Online HTML version
+* [Online HTML version](https://falkr.github.io/thesis-tips/)
 * PDF
 
 
