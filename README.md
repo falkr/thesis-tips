@@ -4,8 +4,11 @@
 
 The document is available in several formats:
 
-* [Online HTML version](https://falkr.github.io/thesis-tips/)
-* [PDF](https://github.com/falkr/thesis-tips/blob/master/docs/tips.pdf?raw=true)
+* [Online HTML version][1]
+* [PDF][2]
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+[1]:	https://falkr.github.io/thesis-tips/
+[2]:	https://github.com/falkr/thesis-tips/blob/master/docs/tips.pdf?raw=true
