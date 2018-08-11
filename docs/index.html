@@ -13,12 +13,9 @@
     <!-- Custom styles for this template -->
   <style type="text/css">
   @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i');
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-
 
 body {
-  padding-top: 5rem;
-  xfont-family: 'Open Sans', sans-serif;
+  xpadding-top: 5rem;
   font-family: 'Crimson Text', serif;
 }
 .starter-template {
@@ -28,8 +25,6 @@ body {
 .starter-template > h1, 
 .starter-template > h2, 
 .starter-template > h3 {
-	xfont-family: 'Open Sans', sans-serif;
-	xfont-weight: 300;
 	font-family: 'Crimson Text', serif;
 	font-weight: 400;
 	color: rgb(0, 123, 255) 
@@ -51,10 +46,48 @@ body {
 }
 
 h1.title {
-	font-size: 5rem;
+	font-size: 4.5rem;
 	padding-top: 2rem;
 	line-height: 5rem
 }
+
+.starter-template > p, 
+.starter-template > ul,
+.starter-template > ol {
+	font-size: 1.5rem;
+	line-height: 1.7rem;
+	color: #5E5E5E;
+}
+
+.starter-template > p {
+	margin-bottom: 32px;
+}
+
+.starter-template > p strong {
+	font-weight: bold;
+	color: #000000;
+	line-height: 32px;
+}
+
+.starter-template > strong {
+	font-weight: bold;
+	color: #000000;
+	line-height: 32px;
+}
+
+.starter-template > a {
+	text-decoration: none;
+	border-bottom: 1px solid #F74D63;
+	color: #5E5E5E;
+	padding-bottom: 0px;
+	box-shadow: inset 0 -4px 0  #F74D63;
+}
+
+.starter-template > a:visited {
+	color: #5E5E5E;
+}
+
+
 
 nav li {
 list-style: none;
@@ -77,16 +110,20 @@ border-bottom: 1px solid #f2f3f3;
 .abstract {
 color: rgb(0, 123, 255); 
 font-size: 1.5rem;
-line-height: 1.4rem
+line-height: 1.4rem;
+padding: 2rem 0 2rem 0;
 }
 
 
   </style>
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark"> <!-- fixed-top -->
       <a class="navbar-brand" href="#">
       	<svg width="100" height="30">
       		<image xlink:href="https://innsida.ntnu.no/innsida-theme/images/ntnu-graphics/ntnu_logo_white.svg" 
@@ -127,6 +164,14 @@ line-height: 1.4rem
 </ul>
 </nav>
 
+<div class="card" style="margin: 3rem 2rem;">
+  <div class="card-body">
+    <a href="index.pdf"><i class="far fa-file-pdf"></i> PDF</a>
+  </div>
+</div>
+
+	
+	
 
   
   <!-- navigation menu end -->
@@ -142,6 +187,16 @@ line-height: 1.4rem
 <div class="abstract">
 This is a collection of hints for writing a thesis, with a focus on the technical process of writing, editing and typographic issues.
 </div>
+
+
+<div class="card">
+  <div class="card-body">
+	<img src="images/frank.jpg" alt="Frank" class="rounded-circle" width="50" height="50">
+	Frank Alexander Kraemer
+	<a href="email:kraemer@ntnu.no">kraemer@ntnu.no</a>
+  </div>
+</div>
+
 
  
   
@@ -343,10 +398,9 @@ Setting the text, tables and figures into PDF.
 <li>If you take a figure from somewhere else but make modifications to it, include the sentence <em>“Adapted from [Y].”</em></li>
 <li>If you do not refer to any other source, you implicitly state that you have created the figure on your own. Again, it is your responsibility to avoid any misunderstandings.</li>
 </ul>
-<h4 id="avoid-copypaste-accidents"><span class="header-section-number">5.1.0.1</span> Avoid Copy/Paste Accidents</h4>
-<p>Never even copy and paste text from somewhere else into your work without immediately marking it with a reference. In this way, you never come into a situation where you are unsure if a snippet of text originates from you or somebody else.</p>
+<p><strong>Tip: Avoid Copy/Paste Accidents</strong> Never even copy and paste text from somewhere else into your work without immediately marking it with a reference. In this way, you never come into a situation where you are unsure if a snippet of text originates from you or somebody else.</p>
 <h1 id="figures"><span class="header-section-number">6</span> Figures</h1>
-<p>Good figures are hard to make, but they are valuable when explaining something to the reader. You should therefore invest time to produce good figures.</p>
+<p>Good figures are hard to make, but they are valuable when explaining something to the reader. You should therefore invest time to create good figures. This can also help to understand a problem or subject better yourself, and it can be a good way to overcome troubles with writing in the beginning.</p>
 <h2 id="introduce-and-explain-all-figures"><span class="header-section-number">6.1</span> Introduce and Explain all Figures</h2>
 <p>You must introduce all figures in the text. If possible, you should place the figure <em>after</em> you have introduced it in the text. Make also sure that you explain all relevant details of a figure. In diagrams, tell the user what the axes are, in which direction time goes or which notation you are using. Spend effort and walk the reader through the figure, element for element.</p>
 <h2 id="use-long-caption-texts"><span class="header-section-number">6.2</span> Use Long Caption Texts</h2>
@@ -356,7 +410,7 @@ Setting the text, tables and figures into PDF.
 <h2 id="orientation"><span class="header-section-number">6.3</span> Orientation</h2>
 <p>If it is not possible to fit a figure in portrait orientation, consider landscape orientation. Make sure, however, that you turn the figure in such a way that readers have to turn their paper 90 degrees clockwise, as shown in Fig. [fig-orientation].</p>
 <figure>
-<embed src="figures/orientation.pdf" title="fig:" /><figcaption>Proper orientation. Make sure that figures are readable in portrait orientation, or at least as shown above when you need landscape orientation.</figcaption>
+<img src="" alt="Proper orientation. Make sure that figures are readable in portrait orientation, or at least as shown above when you need landscape orientation." /><figcaption>Proper orientation. Make sure that figures are readable in portrait orientation, or at least as shown above when you need landscape orientation.</figcaption>
 </figure>
 <p>More tips for figures:</p>
 <ul>
@@ -368,8 +422,8 @@ Setting the text, tables and figures into PDF.
 <h1 id="formatting"><span class="header-section-number">7</span> Formatting</h1>
 <p>This part is probably the easiest, though the most detailed. Once you have good sentences and paragraphs, you should also get the punctuation and spelling right.</p>
 <h2 id="use-latex"><span class="header-section-number">7.1</span> Use LaTeX</h2>
-<p>For scientific writing, LaTeX is the standard tool for writing. For your needs, standard templates and styles should work quite well.</p>
-<p>One of the benefits of LaTeX, apart from its high-quality output, is the fact that it uses normal text files as input, which simplifies versioning and backup. You can for instance easily use Git to manage your report. You can also use any text editor of your choice.</p>
+<p>For scientific writing, LaTeX is pretty much standard, and by far the most theses are written with it. There is also lots of help available on the web. For your needs, standard templates and styles should work quite well.</p>
+<p>One of the benefits of LaTeX, apart from its high-quality output, is the fact that it uses normal text files as input, which simplifies versioning and backup. You can for instance use Git both for taking care of incremental changes and as additional backup. You can also use any text editor of your choice.</p>
 <h2 id="placement-of-punctuation-marks-and-spaces"><span class="header-section-number">7.2</span> Placement of Punctuation Marks and Spaces</h2>
 <p>Place commas and points correctly. Also leave exactly one space between words. Two spaces must never follow each other. The following lines all contain a problem:</p>
 <p>…write nicely ,no matter why. …sentence.Next sentence… …two spaces between words.</p>
@@ -379,7 +433,7 @@ Setting the text, tables and figures into PDF.
 <p>Footnote marks at the end of sentences should be placed <em>after</em> the period, like in this sentence.<a href="kraemer@ntnu.no">3</a> In LaTeX, the necessary code looks like this:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode latex"><code class="sourceCode latex"><a class="sourceLine" id="cb2-1" data-line-number="1">...this sentence.<span class="fu">\footnote</span>{...}</a></code></pre></div>
 <h2 id="quotation-marks"><span class="header-section-number">7.5</span> Quotation Marks</h2>
-<p>Correct quotation marks are produced in Latex by the following characters ``<code>quoted''</code> to produce “quoted.” Note that each quotation mark consists of two characters.</p>
+<p>Correct quotation marks are produced in LaTeX by the following characters ``<code>quoted''</code> to produce “quoted.” Note that each quotation mark consists of two characters.</p>
 <p>When a quotation mark happens at the end of a sentence, include the period within the quotation marks.</p>
 <p><strong>Wrong:</strong> “quoted”.</p>
 <p><strong>Correct:</strong> “quoted.”</p>
@@ -394,7 +448,7 @@ Setting the text, tables and figures into PDF.
 </ul>
 <p>The former is typically used for publications on the web that are read in a browser, while the latter is often used for publications on PDF and paper. It is not allowed to simply start a new line, but without either extra space between the paragraphs or without the indentation.</p>
 <h2 id="citations"><span class="header-section-number">7.8</span> Citations</h2>
-<p>Citations must always be grouped within their brackets, that means [1,2] instead of <a href="kraemer@ntnu.no">1</a>,[2]. If numbers are used, they should in the end be sorted so that the numbers are sorted in increasing order.</p>
+<p>Citations must always be grouped within their brackets, that means [1,2] instead of <a href="kraemer@ntnu.no">1</a>,<a href="kraemer@ntnu.no">2</a>. If numbers are used, they should in the end be sorted so that the numbers are sorted in increasing order.</p>
 <p>To have a proper blank between the text and a citation, use a tilde and write <code>...means~\cite{QUOTE1,QUOTE2}</code>.</p>
 <p>Figures that are not produced by the author for that specific document must be also cited within the caption of the figure.</p>
 <p>Citations at the end of a sentence must still appear within the sentence, that means before the period.</p>
