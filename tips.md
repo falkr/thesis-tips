@@ -1,30 +1,31 @@
-# Random Hints for Writing Your Thesis  
+---
+title:  'Tips for Thesis Writing'
+author:
+- Frank Alexander Kraemer
+keywords: [nothing, nothingness]
+abstract: |
+  This is a collection of tips for writing a thesis, with a focus on the technical process of writing, editing and typography.
+---
 
-*This is a collection of hints for writing a thesis, with a focus on the technical process of writing, editing and typographic issues.*
 
-Version 2017/10
-
-Frank Alexander Kraemer, [kraemer@ntnu.no][1]  
-NTNU
-
-# Towards Your Thesis Report
+# The Thesis Report
 
 When you write your thesis, you do of course much more than just writing. You study literature, make experiments, build prototypes or perform other research activities to gain some results. In this guide, we focus on the more technical issues of writing, editing and formatting.
 
-The final grade of your thesis is based on the report that you deliver. The report is in most cases the only way the censor learns about your results. It is therefore important that you spend enough effort on the report.
+First of all — it’s important that you spend enough effort on the report, because the censor of the thesis often only learns about your results through reading the report. If the report is flawed, even good results won’t be visible.
 
-Writing takes time. Probably much more time that you think. It is also an iterative process, and you will probably not be able to finish a section on a first attempt. It takes several iterations until you are satisfied. However, to succeed with version *n*, there needs to be a version *n-1*. You should therefore start to write as early as possible, even if you think that you will be able to write “easier” after you have made more progress with the work of your thesis.
+Writing takes time. Probably much more time than you think. It is also an iterative process, and you will probably not be able to finish a section on a first attempt. It takes several iterations until you are satisfied. You should therefore start to write as early as possible, even if you think that you will be able to write “easier” after you have made more progress with the work of your thesis.
 
-Another reason why it is important to start writing early is to get early and useful feedback from your supervisors. If you deliver them a version only a few days before the deadline, you cannot really benefit from their feedback and learn from it.
+Starting early with the writing is also important so you can receive feedback from your supervisors. If you deliver them a version only a few days before the deadline, you cannot really benefit from their feedback and learn from it.
 
 Writing and doing research is an iterative process, going through cycles that consist roughly of the following activities:
 
-<table>
+<table class="table">
 <thead>
 <tr class="header">
 <th align="left"></th>
+<th align="left">Phase</th>
 <th align="left">Goal</th>
-<th align="left"></th>
 </tr>
 </thead>
 <tbody>
@@ -61,26 +62,28 @@ Writing and doing research is an iterative process, going through cycles that co
 </tbody>
 </table>
 
-  - The writing part is where you formulate your ideas. You can only do this effectively when you have done the research part right, and when your thoughts have matured. However, this does not mean you can only start writing during the last weeks.
-  - The editing part is where you take written sentences and improve their readability, clarity, style, language. You also structure sentences and paragraphs.
-  - The formatting part is purely technical. It means to put the edited text into PDF.
+In this document, we are not covering the research part, and only focus on the task to get the research results onto paper. In particular, we focus on the following tasks:
 
-In practice, the borders between these activities are more blurred than we describe here. When you start thinking, you will see that you need to do more research, or that you need to conduct some experiments. When you start writing, you may discover that you need to do some more thinking, and so on. In any case, it helps to be aware of the different goals of these activities, and you should at any time be aware of which of the
-ones you are doing.
+  - In the **writing** phase you formulate your arguments. You can only do this effectively when you have done the research part right, and when your thoughts have matured. However, this does not mean you can only start writing during the last weeks.
+  - During the  **editing** phase, you take written sentences and improve their readability, clarity, style, and language. You also structure sentences and paragraphs.
+  - The **formatting** phase is purely technical. It means to put the edited text into PDF.
+
+It helps to be aware of the different goals of these activities, and you should at any time be aware of which of the
+ones you are doing. In practice, the borders between these activities are more blurred. When you start thinking, you will see that you need to do more research, or that you need to conduct some experiments. When you start writing, you may discover that you need to do some more thinking, and so on. Still, begin aware of the different goals may help you to focus on what is important. 
 
 # Planning the Report
 
 There are guidelines, conventions and requirements for a thesis. Some of them are strict, like the treatment of references or rules regarding plagiarism. Follow them. If you are unsure, ask your supervisor or seek help from others.
 
-Conventions, like for instance the structure of the sections, are not so strict, but have proven to work well in many cases. Try to follow them, but keep in mind that your goal, in the end, is simply to present your thesis to the reader as efficient and correct as possible.
+Other conventions, like for instance the structure of the sections, are not so strict, but have proven to work well in many cases. Try to follow them, but keep in mind that your goal, in the end, is simply to present your thesis to the reader as efficient and correct as possible.
 
 One common question is the number of pages the report should have. This is difficult to answer, since the number of pages really does not say anything about the quality of a thesis. In the end, you should use the number of pages that you need to present and discuss your work appropriately.
 
 ## The Abstract
 
-The task of the abstract is to summarize the content of the thesis, so that potential readers can decide if they should read it or not.
+The task of the abstract is to summarize the content of the thesis, so that potential readers can decide if they should read it or not. It should say something about the problem addressed, outline methods used and summarize results.
 
-The most common mistake of abstracts is that writers start to argue for their viewpoint, overly advertise for the remaining parts of the work, and hence not cover the content as a neutral summary. An abstract should summarize in a neutral way. Motivating your work is the task of the introduction, and argumentation should be done in the main part and the end.
+The most common mistake of abstracts is that writers start to argue for their viewpoint,  advertise for the remaining parts of the work, or motivate their work. Instead, an abstract should summarize in a neutral way. Motivating your work is the task of the introduction, and argumentation should be done in the main part and the end.
 
 ## The Introduction
 
@@ -88,7 +91,7 @@ The introduction gives the reader the first impression of your work. Here you ca
 
 The introduction should include a summary of the work and its main content and arguments, similarly to the abstract, but in much more depth and also more details. In contrast to the abstract, an introduction should contain a motivation for your work.
 
-After the introduction, the reader must know *why* you have done the work, *why* it is interesting, *what* they main points are and *how* you have structured the presentation and discussion in the remaining chapters.
+After reading the introduction, the reader must know *why* you have done the work, *why* it is interesting, *what* they main points are and *how* you have structured the presentation and discussion in the remaining chapters.
 
 ## The Background Chapters
 
@@ -114,30 +117,31 @@ While the first two are in practice mandatory, the outlook in the future is opti
 
 # Writing
 
+We discussed the different parts the report consists of, and turn our attention now to the actual writing process. 
+
 ## Getting Started
 
-Getting started with the writing can be difficult, sometimes
-even uncomfortable. The editor window is empty, and any attempt to write some sensible sentences is followed by doubts if the sentence is good enough, if it can be understood by the reader, and if that sentence should actually exist at all.
-
-There are different techniques to overcome this initial threshold:
+Getting started with the writing can be difficult. The editor window is empty, and it can feel overwhelming to come up with good sentences. There are different techniques to overcome this initial threshold:
 
   - Instead of writing, it may be easier to create a figure of a system or process first. Even a simple sketch of the figure can help to find simple words and sentences to describe it, step by step, from left to right or top to bottom.
-  - Sometimes it helps to explain an issue to another person and make notes of the comments or formulations that helped to convey a point. It’s not uncommon to ask a colleague to serve as such a catalyst and listen to your argumentation. You may return the favor to them another time.
+  - Sometimes it helps to explain an issue to another person and make notes of the comments or formulations that helped to convey a point. It’s not uncommon to ask a colleague to serve as such a catalyst and listen to your argumentation. You may return the favour to them another time.
 
-In the end, you have to ask the question which information or issue you want to convey to the reader, write them down, and then refine once you find out what else is needed so that all information is presented in a proper context. A useful skill is to imitate a person that does not know what you know.
+A useful skill is to imitate a person that does not know what you know. You have to ask the question which information or issue you want to convey to the reader, write them down, and then refine once you find out what else is needed so that all information is presented in a proper context. 
 
-Take away all focus from editing issues during this initial writing phase. Don’t spend any time on making your document pretty, or be too much concerned about other details that do not affect your arguments. You can take care of this in the later rounds of editing. It may therefore also be wise to use a very simple editor in the initial writing phase, without any formatting or disturbing functions. Some writers also prefer to make the initial sketch of an argument with pencil and paper.
+Take away all focus from editing issues during this initial writing phase. Don’t spend any time on making your document pretty, or be too much concerned about other details that do not affect your arguments. You can take care of this in the later rounds of editing. It may therefore also be wise to use a very simple editor in the initial writing phase, without any formatting or disturbing functions. Some writers make the initial sketch of an argument with pencil and paper.
 
 ## Writing Style
 
-Developing a good writing style takes time, and it’s hard to give any definite answer of what makes a *good* style. In general, a good writing style is one that effectively communicates your message and does not annoy the reader. The most usual annoyances are the following:
+A good writing style effectively communicates your arguments and results to the reader. It may take some time to develop such a style, and it’s hard to give clear instructions what a good writing style is. However, it’s easier to point out what *not* to do:
 
-  - *Too verbose*. It’s obvious that you try to use as many words as possible.
-  - *Too short*. You don’t explain things good enough, do not deliver	enough examples, explain figures completely.
-  - *Too formal*. Scientific and technical writing can be precise	without being too formal.
-  - *Too informal*. While we encourage you to use a vivid language, overdoing it may have the opposite effect.
-  - *Not focused*. Within any sentence, within any paragraph and within every section, it must be clear to the reader what the thesis is about and why the current issue is important.
-  - *Too complicated*. You explain a subject matter more complicated	than it ought to be. Explaining things simple is not easy, but exactly this is what your job as a writer includes, and what is also rewarded.
+  - *Writing too verbose*. It’s obvious that you try to use as many words as possible.
+  - *Writing too short*. You don’t explain things good enough, do not deliver	enough examples, explain figures completely.
+  - *Writing too formal*. Scientific and technical writing can be precise without being too formal.
+  - *Writing too informal*. While we encourage you to use a vivid language, overdoing it may have the opposite effect.
+  - *Writing without focus*. Within any sentence, within any paragraph and within every section, it must be clear to the reader what the thesis is about and why the current issue is important.
+  - *Writing too complicated*. You explain a subject matter more complicated	than it ought to be. Explaining things simple is not easy, but exactly this is what your job as a writer includes, and what is also rewarded.
+
+If you manage to prevent the above problems, you are probably on the right track. 
 
 ## Effective Paragraphs
 
@@ -160,17 +164,23 @@ Formulate your thoughts and arguments as simple as possible. Only if you have un
 To increase readability, use simple sentences. The writing style of Ernest Hemingway is an example for a simple writing style. Do a web search for *writing rules hemingway*, and read on. Some guidelines are the following:
 
 - Use short sentences.
-- Use positive formulations, not negative ones.
-- Use active voice.
+- Use positive formulations, not negative ones. Avoid double negations.
+- Use active voice.[^1]
 - Avoid adverbs.
 
-The web application *Hemingway*[:1]() evaluates with an algorithm how easy it is to understand a text. This application highlights adverbs, passive voice, or sentences that are hard to read.
+The web application *Hemingway*[^2] evaluates with an algorithm how easy it is to understand a text. This application highlights adverbs, passive voice, or sentences that are hard to read. 
 
-Sentence in passive voice: *To calculate the speed the following formula is used.* In active voice: *To calculate the speed, we use the following formula.*
+## Make Your Point
+
+A common problem is that an argument is not fully developed, and  that you leave the actual point you should address unsaid. In scientific writing, you should make sure to include your main point explicitly and not leave it up to the reader to complete your paragraphs in their thoughts. Rather say something important twice than not at all!
+
+To make sure that you make your main points, manage them actively. Have a separate document with the main arguments and results of your thesis, and try to formulate them as explicitly and bold as possible. Your supervisors can help with that. Then, make sure that these arguments are sufficiently visible in the final version of the thesis, and occur at the appropriate places in the abstract, introduction, main part and the end.
 
 ## Avoid Jargon
 
-Always make sure that words you use have the proper meaning and that the reader can be understand them. Sometimes you may be tempted to use words that you have read in other places, where they were used in a specific context. When you use them in your thesis, the reader may not understand them. An example is the word “lightweight.” It’s a word that is easy to use, but it is often not clear what it actually means. Instead, try to use another word or formulation that describes better what you want to say.
+Always make sure that words you use have the proper meaning and that the reader can be understand them. Sometimes you may be tempted to use words that you have read in other places, where they were used in a specific context. When you use them in your thesis, the reader may not understand them. 
+
+An example is the word “lightweight.” It’s a word that is easy to use, but it is often not clear what it actually means. Instead, try to use another word or formulation that describes better what you want to say.
 
 ## Avoid Unnecessary Adjectives
 
@@ -207,14 +217,22 @@ Some tips regarding editing:
 
 # Correct Citations and Plagiarism
 
-The most serious issue is that of plagiarism. Plagiarism happens whenever you use the words of others without marking them correctly, so that the reader is not aware that they are not your own. With *words*, we mean complete paragraphs, sentences, and even parts of sentences. We can distinguish two forms of plagiarism:
+Plagiarism is probably the most severe issue of misconduct that can happen during writing. The consequences of plagiarism are quite severe, and can go beyond the thesis and also affect further studies. 
 
-- **Intentional:** Some students, luckily a minority, copy intentionally. This is just plain fraud. However, this almost never plays out well since plagiarism is extremely easy to identify for an experienced censor. The consequences for your further studies are quite severe.
-- **By Accident:** More often happens a form of plagiarism without bad intentions, but simply because of lack of knowledge, naïvety, or bad craftsmanship during writing. Still, the consequences may be the same.
+Plagiarism happens whenever you use the words of others without marking them correctly, so that the reader is not aware that they are not your own. With *words*, we mean complete paragraphs, sentences, but also parts of sentences. Also direct translations from one language to another are a form of plagiarism. 
 
-There are also situations in between, where it is not clear if the author attempts to cheat or is just a clumsy writer. You must therefore actively work to avoid ambiguous situations. You must not leave it unclear which parts of a text are citations an which are your own words. Always make it obvious which words are taken from others and cite technically correctly.
+When your thesis is graded, plagiarism is usually easily detected. Not only by automated tools that compare the document with others. It is usually also very simple to spot places in the text that are copied from somewhere else. Without going into details, they just “smell different” when reading.  
 
-As a guideline: It should be possible for the reader to highlight with a marker pen exactly those words that you have taken or adapted from other sources. Double-check if it possible for a reader to misunderstand. If yes, mark the citations better. When yo have doubts, ask your supervisor.
+We can distinguish two forms of plagiarism:
+
+- **Intentional:** In this case, the writer copies information from somewhere else without credit, and with the intention to present these ideas as their own.
+- **Unintentional:** More often happens a form of plagiarism without bad intentions, but simply because of lack of knowledge, naïvety, or bad craftsmanship during writing.
+
+There are also situations in between, where it is not clear if the author attempts to cheat or is just a clumsy writer. Assuming that you have no bad intentions, we will therefore in the following focus on how to avoid unintentional forms of plagiarism. 
+
+The key is that you must actively work to avoid ambiguous situations in which it is not clear which parts of a text are citations and which are your own words. Always make it obvious which words are taken from others and cite technically correctly.
+
+As a guideline: It should be possible for the reader to highlight with a marker pen exactly those words that you have taken or adapted from other sources. Double-check if it possible for a reader to misunderstand. If yes, mark the citations better. If yo have doubts, ask your supervisor.
 
 ## Citing Figures
 
@@ -226,13 +244,13 @@ As a guideline:
 - If you take a figure from somewhere else but make modifications to it, include the sentence *“Adapted from [Y].”*
 - If you do not refer to any other source, you implicitly state that you have created the figure on your own. Again, it is your responsibility to avoid any misunderstandings.
 
-#### Avoid Copy/Paste Accidents
-
+**Tip: Avoid Copy/Paste Accidents.**
 Never even copy and paste text from somewhere else into your work without immediately marking it with a reference. In this way, you never come into a situation where you are unsure if a snippet of text originates from you or somebody else.
 
 # Figures
 
-Good figures are hard to make, but they are valuable when explaining something to the reader. You should therefore invest time to produce good figures.
+Good figures are hard to make, but they are valuable when explaining something to the reader. You should therefore invest time to create good figures.
+This can also help to understand a problem or subject better yourself, and it can be a good way to overcome troubles with writing in the beginning.
 
 ## Introduce and Explain all Figures
 
@@ -252,7 +270,7 @@ In Latex, the cation for a figure is produced with the command `\caption{}`. The
 
 If it is not possible to fit a figure in portrait orientation, consider landscape orientation. Make sure, however, that you turn the figure in such a way that readers have to turn their paper 90 degrees clockwise, as shown in Fig. [fig-orientation].
 
-![Proper orientation. Make sure that figures are readable in portrait orientation, or at least as shown above when you need landscape orientation.][image-1]
+![Proper orientation. Make sure that figures are readable in portrait orientation, or at least as shown above when you need landscape orientation.]()
 
 More tips for figures:
 
@@ -267,9 +285,11 @@ This part is probably the easiest, though the most detailed. Once you have good 
 
 ## Use LaTeX
 
-For scientific writing, LaTeX is the standard tool for writing. For your needs, standard templates and styles should work quite well. 
+For scientific writing, LaTeX is pretty much standard, and  most theses and scientific articles are written with it. 
 
-One of the benefits of LaTeX, apart from its high-quality output, is the fact that it uses normal text files as input, which simplifies versioning and backup. You can for instance easily use Git to manage your report. You can also use any text editor of your choice.
+There is a learning curve, as you need to understand some of the LaTeX language. However, there is also lots of help available on the web. For your needs, standard templates and styles should work quite well. 
+
+One of the benefits of LaTeX, apart from its high-quality output, is the fact that it uses normal text files as input, which simplifies versioning and backup. You can for instance use Git both for taking care of incremental changes and as additional backup. You can also use any text editor of your choice.
 
 
 ## Placement of Punctuation Marks and Spaces
@@ -284,7 +304,7 @@ When you use a semicolon, there is a big chance that you are using it wrong, or 
 
 ## Footnotes
 
-Footnote marks at the end of sentences should be placed *after* the period, like in this sentence.[3] In LaTeX, the necessary code looks like this:
+Footnote marks at the end of sentences should be placed *after* the period, like in this sentence.[3][2] In LaTeX, the necessary code looks like this:
 
 ```latex
 ...this sentence.\footnote{...}
@@ -292,7 +312,7 @@ Footnote marks at the end of sentences should be placed *after* the period, like
 
 ## Quotation Marks
 
-Correct quotation marks are produced in Latex by the following characters \`\``quoted''` to produce “quoted.” Note that each quotation mark consists of two characters.
+Correct quotation marks are produced in LaTeX by the following characters \`\``quoted''` to produce “quoted.” Note that each quotation mark consists of two characters.
 
 When a quotation mark happens at the end of a sentence, include the period within the quotation marks.
 
@@ -317,7 +337,7 @@ The former is typically used for publications on the web that are read in a brow
 
 ## Citations
 
-Citations must always be grouped within their brackets, that means [1,2] instead of [1][4],[2]. If numbers are used, they should in the end be sorted so that the numbers are sorted in increasing order.
+Citations must always be grouped within their brackets, that means [1,2] instead of [1][3],[2]. If numbers are used, they should in the end be sorted so that the numbers are sorted in increasing order.
 
 To have a proper blank between the text and a citation, use a tilde and write `...means~\cite{QUOTE1,QUOTE2}`.
 
@@ -369,21 +389,23 @@ An exception is the percent sign, for which we find different practices. I sugge
 
 ## Model and Program Names
 
-Names of Java or UML classes should be written in normal english form, that means for instance *state machine* instead of *StateMachine*. When it should be made clear that a specific name is meant, the name should be printed emphasized, to make clear that you write about the UML class *StateMachine*. Since most programming languages use American English (UML refers to *behavior*, not *behaviour*), you may want to use American English for the entire text.
+Names of Java or UML classes should be written in normal English form, that means for instance *state machine* instead of *StateMachine*. When it should be made clear that a specific name is meant, the name should be printed emphasized, to make clear that you write about the UML class *StateMachine*. Since most programming languages use American English (UML refers to *behavior*, not *behaviour*), you may want to use American English for the entire text.
 
 ## Avoid Referring to “He” or “She”
 
 Avoid referring to gender in examples. Usually this is possible by using plural. For instance *“...users may operate their phones...”*
 
+<!--
 1. [http://www.hemingwayapp.com]()
 2. Merriam Webster. Merriam-Webster, Inc. Archived from the original on 29 March 2013. Retrieved 29 March 2013.
 3. Footnote with correctly placed mark.
+-->
 
 
 
+[^1]:	Here is an example for a sentence in passive voice: *To calculate the speed, the following formula is used.* In active voice: *To calculate the speed, we use the following formula.*
 
-[1]:	kraemer@ntnu.no
-[4]:	kraemer@ntnu.no
+[^2]:	http://www.hemingwayapp.com
 
 
-[image-1]:	figures/orientation.pdf "fig:"
+

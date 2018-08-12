@@ -63,16 +63,16 @@ h1.title {
 	margin-bottom: 32px;
 }
 
-.starter-template > p strong {
+.starter-template > p strong,
+.starter-template > ul strong,
+.starter-template > ol strong {
 	font-weight: bold;
 	color: #000000;
-	line-height: 32px;
 }
 
 .starter-template > strong {
 	font-weight: bold;
 	color: #000000;
-	line-height: 32px;
 }
 
 .starter-template > a {
@@ -110,7 +110,7 @@ border-bottom: 1px solid #f2f3f3;
 .abstract {
 color: rgb(0, 123, 255); 
 font-size: 1.5rem;
-line-height: 1.4rem;
+line-height: 1.7rem;
 padding: 2rem 0 2rem 0;
 }
 
@@ -164,6 +164,18 @@ padding: 2rem 0 2rem 0;
 </ul>
 </nav>
 
+
+<div class="container">
+<div class="col-sm-3">
+              <img src="images/frank.jpg" alt="Frank" class="rounded-circle" width="50" height="50">
+            </div>
+            <div class="col-sm-9">
+              <div>Frank Alexander Kraemer</div>
+              <small><a href="email:kraemer@ntnu.no">kraemer@ntnu.no</a></small>
+</div>
+</div>       
+
+
 <div class="card" style="margin: 3rem 2rem;">
   <div class="card-body">
     <a href="index.pdf"><i class="far fa-file-pdf"></i> PDF</a>
@@ -185,36 +197,26 @@ padding: 2rem 0 2rem 0;
 <h1 class="title">Tips for Thesis Writing</h1> 
 
 <div class="abstract">
-This is a collection of hints for writing a thesis, with a focus on the technical process of writing, editing and typographic issues.
+This is a collection of tips for writing a thesis, with a focus on the technical process of writing, editing and typography.
 </div>
-
-
-<div class="card">
-  <div class="card-body">
-	<img src="images/frank.jpg" alt="Frank" class="rounded-circle" width="50" height="50">
-	Frank Alexander Kraemer
-	<a href="email:kraemer@ntnu.no">kraemer@ntnu.no</a>
-  </div>
-</div>
-
-
  
   
-<h1 id="towards-your-thesis-report"><span class="header-section-number">1</span> Towards Your Thesis Report</h1>
+<h1 id="the-thesis-report"><span class="header-section-number">1</span> The Thesis Report</h1>
 <p>When you write your thesis, you do of course much more than just writing. You study literature, make experiments, build prototypes or perform other research activities to gain some results. In this guide, we focus on the more technical issues of writing, editing and formatting.</p>
-<p>The final grade of your thesis is based on the report that you deliver. The report is in most cases the only way the censor learns about your results. It is therefore important that you spend enough effort on the report.</p>
-<p>Writing takes time. Probably much more time that you think. It is also an iterative process, and you will probably not be able to finish a section on a first attempt. It takes several iterations until you are satisfied. However, to succeed with version <em>n</em>, there needs to be a version <em>n-1</em>. You should therefore start to write as early as possible, even if you think that you will be able to write “easier” after you have made more progress with the work of your thesis.</p>
-<p>Another reason why it is important to start writing early is to get early and useful feedback from your supervisors. If you deliver them a version only a few days before the deadline, you cannot really benefit from their feedback and learn from it.</p>
+<p>First of all — it’s important that you spend enough effort on the report, because the censor of the thesis often only learns about your results through reading the report. If the report is flawed, even good results won’t be visible.</p>
+<p>Writing takes time. Probably much more time than you think. It is also an iterative process, and you will probably not be able to finish a section on a first attempt. It takes several iterations until you are satisfied. You should therefore start to write as early as possible, even if you think that you will be able to write “easier” after you have made more progress with the work of your thesis.</p>
+<p>Starting early with the writing is also important so you can receive feedback from your supervisors. If you deliver them a version only a few days before the deadline, you cannot really benefit from their feedback and learn from it.</p>
 <p>Writing and doing research is an iterative process, going through cycles that consist roughly of the following activities:</p>
-<table>
+<table class="table">
 <thead>
 <tr class="header">
 <th align="left">
 </th>
 <th align="left">
-Goal
+Phase
 </th>
 <th align="left">
+Goal
 </th>
 </tr>
 </thead>
@@ -287,23 +289,24 @@ Setting the text, tables and figures into PDF.
 </tr>
 </tbody>
 </table>
+<p>In this document, we are not covering the research part, and only focus on the task to get the research results onto paper. In particular, we focus on the following tasks:</p>
 <ul>
-<li>The writing part is where you formulate your ideas. You can only do this effectively when you have done the research part right, and when your thoughts have matured. However, this does not mean you can only start writing during the last weeks.</li>
-<li>The editing part is where you take written sentences and improve their readability, clarity, style, language. You also structure sentences and paragraphs.</li>
-<li>The formatting part is purely technical. It means to put the edited text into PDF.</li>
+<li>In the <strong>writing</strong> phase you formulate your arguments. You can only do this effectively when you have done the research part right, and when your thoughts have matured. However, this does not mean you can only start writing during the last weeks.</li>
+<li>During the <strong>editing</strong> phase, you take written sentences and improve their readability, clarity, style, and language. You also structure sentences and paragraphs.</li>
+<li>The <strong>formatting</strong> phase is purely technical. It means to put the edited text into PDF.</li>
 </ul>
-<p>In practice, the borders between these activities are more blurred than we describe here. When you start thinking, you will see that you need to do more research, or that you need to conduct some experiments. When you start writing, you may discover that you need to do some more thinking, and so on. In any case, it helps to be aware of the different goals of these activities, and you should at any time be aware of which of the ones you are doing.</p>
+<p>It helps to be aware of the different goals of these activities, and you should at any time be aware of which of the ones you are doing. In practice, the borders between these activities are more blurred. When you start thinking, you will see that you need to do more research, or that you need to conduct some experiments. When you start writing, you may discover that you need to do some more thinking, and so on. Still, begin aware of the different goals may help you to focus on what is important.</p>
 <h1 id="planning-the-report"><span class="header-section-number">2</span> Planning the Report</h1>
 <p>There are guidelines, conventions and requirements for a thesis. Some of them are strict, like the treatment of references or rules regarding plagiarism. Follow them. If you are unsure, ask your supervisor or seek help from others.</p>
-<p>Conventions, like for instance the structure of the sections, are not so strict, but have proven to work well in many cases. Try to follow them, but keep in mind that your goal, in the end, is simply to present your thesis to the reader as efficient and correct as possible.</p>
+<p>Other conventions, like for instance the structure of the sections, are not so strict, but have proven to work well in many cases. Try to follow them, but keep in mind that your goal, in the end, is simply to present your thesis to the reader as efficient and correct as possible.</p>
 <p>One common question is the number of pages the report should have. This is difficult to answer, since the number of pages really does not say anything about the quality of a thesis. In the end, you should use the number of pages that you need to present and discuss your work appropriately.</p>
 <h2 id="the-abstract"><span class="header-section-number">2.1</span> The Abstract</h2>
-<p>The task of the abstract is to summarize the content of the thesis, so that potential readers can decide if they should read it or not.</p>
-<p>The most common mistake of abstracts is that writers start to argue for their viewpoint, overly advertise for the remaining parts of the work, and hence not cover the content as a neutral summary. An abstract should summarize in a neutral way. Motivating your work is the task of the introduction, and argumentation should be done in the main part and the end.</p>
+<p>The task of the abstract is to summarize the content of the thesis, so that potential readers can decide if they should read it or not. It should say something about the problem addressed, outline methods used and summarize results.</p>
+<p>The most common mistake of abstracts is that writers start to argue for their viewpoint, advertise for the remaining parts of the work, or motivate their work. Instead, an abstract should summarize in a neutral way. Motivating your work is the task of the introduction, and argumentation should be done in the main part and the end.</p>
 <h2 id="the-introduction"><span class="header-section-number">2.2</span> The Introduction</h2>
 <p>The introduction gives the reader the first impression of your work. Here you can show that you have a clear idea about your thesis. The introduction is also the ideal place to tell the reader what is special about your work and stimulate curiosity.</p>
 <p>The introduction should include a summary of the work and its main content and arguments, similarly to the abstract, but in much more depth and also more details. In contrast to the abstract, an introduction should contain a motivation for your work.</p>
-<p>After the introduction, the reader must know <em>why</em> you have done the work, <em>why</em> it is interesting, <em>what</em> they main points are and <em>how</em> you have structured the presentation and discussion in the remaining chapters.</p>
+<p>After reading the introduction, the reader must know <em>why</em> you have done the work, <em>why</em> it is interesting, <em>what</em> they main points are and <em>how</em> you have structured the presentation and discussion in the remaining chapters.</p>
 <h2 id="the-background-chapters"><span class="header-section-number">2.3</span> The Background Chapters</h2>
 <p>The background chapter summarizes all subjects that need introduction and are later used in the thesis. Often, one chapter simply called <em>Background</em> will do, with sub-sections for each subject that requires introduction. In some cases you may spread the background in two or even more chapters. You may then assign all of them to a part called <em>Part 1 – Background</em>, but there are no formal constrains. It is only important that a reader sees clearly what constitutes background material, and that background material is explained before you start describing your own work.</p>
 <p>Since you will often start your work by reading other’s work that constitutes background material, it is often a good idea to start early writing parts of this section early. Don’t be afraid of some of the material does not make it into the final version. It provided a good training for writing.</p>
@@ -319,25 +322,26 @@ Setting the text, tables and figures into PDF.
 </ul>
 <p>While the first two are in practice mandatory, the outlook in the future is optional. You may structure these parts as separate chapters, or within a single chapter.</p>
 <h1 id="writing"><span class="header-section-number">3</span> Writing</h1>
+<p>We discussed the different parts the report consists of, and turn our attention now to the actual writing process.</p>
 <h2 id="getting-started"><span class="header-section-number">3.1</span> Getting Started</h2>
-<p>Getting started with the writing can be difficult, sometimes even uncomfortable. The editor window is empty, and any attempt to write some sensible sentences is followed by doubts if the sentence is good enough, if it can be understood by the reader, and if that sentence should actually exist at all.</p>
-<p>There are different techniques to overcome this initial threshold:</p>
+<p>Getting started with the writing can be difficult. The editor window is empty, and it can feel overwhelming to come up with good sentences. There are different techniques to overcome this initial threshold:</p>
 <ul>
 <li>Instead of writing, it may be easier to create a figure of a system or process first. Even a simple sketch of the figure can help to find simple words and sentences to describe it, step by step, from left to right or top to bottom.</li>
-<li>Sometimes it helps to explain an issue to another person and make notes of the comments or formulations that helped to convey a point. It’s not uncommon to ask a colleague to serve as such a catalyst and listen to your argumentation. You may return the favor to them another time.</li>
+<li>Sometimes it helps to explain an issue to another person and make notes of the comments or formulations that helped to convey a point. It’s not uncommon to ask a colleague to serve as such a catalyst and listen to your argumentation. You may return the favour to them another time.</li>
 </ul>
-<p>In the end, you have to ask the question which information or issue you want to convey to the reader, write them down, and then refine once you find out what else is needed so that all information is presented in a proper context. A useful skill is to imitate a person that does not know what you know.</p>
-<p>Take away all focus from editing issues during this initial writing phase. Don’t spend any time on making your document pretty, or be too much concerned about other details that do not affect your arguments. You can take care of this in the later rounds of editing. It may therefore also be wise to use a very simple editor in the initial writing phase, without any formatting or disturbing functions. Some writers also prefer to make the initial sketch of an argument with pencil and paper.</p>
+<p>A useful skill is to imitate a person that does not know what you know. You have to ask the question which information or issue you want to convey to the reader, write them down, and then refine once you find out what else is needed so that all information is presented in a proper context.</p>
+<p>Take away all focus from editing issues during this initial writing phase. Don’t spend any time on making your document pretty, or be too much concerned about other details that do not affect your arguments. You can take care of this in the later rounds of editing. It may therefore also be wise to use a very simple editor in the initial writing phase, without any formatting or disturbing functions. Some writers make the initial sketch of an argument with pencil and paper.</p>
 <h2 id="writing-style"><span class="header-section-number">3.2</span> Writing Style</h2>
-<p>Developing a good writing style takes time, and it’s hard to give any definite answer of what makes a <em>good</em> style. In general, a good writing style is one that effectively communicates your message and does not annoy the reader. The most usual annoyances are the following:</p>
+<p>A good writing style effectively communicates your arguments and results to the reader. It may take some time to develop such a style, and it’s hard to give clear instructions what a good writing style is. However, it’s easier to point out what <em>not</em> to do:</p>
 <ul>
-<li><em>Too verbose</em>. It’s obvious that you try to use as many words as possible.</li>
-<li><em>Too short</em>. You don’t explain things good enough, do not deliver enough examples, explain figures completely.</li>
-<li><em>Too formal</em>. Scientific and technical writing can be precise without being too formal.</li>
-<li><em>Too informal</em>. While we encourage you to use a vivid language, overdoing it may have the opposite effect.</li>
-<li><em>Not focused</em>. Within any sentence, within any paragraph and within every section, it must be clear to the reader what the thesis is about and why the current issue is important.</li>
-<li><em>Too complicated</em>. You explain a subject matter more complicated than it ought to be. Explaining things simple is not easy, but exactly this is what your job as a writer includes, and what is also rewarded.</li>
+<li><em>Writing too verbose</em>. It’s obvious that you try to use as many words as possible.</li>
+<li><em>Writing too short</em>. You don’t explain things good enough, do not deliver enough examples, explain figures completely.</li>
+<li><em>Writing too formal</em>. Scientific and technical writing can be precise without being too formal.</li>
+<li><em>Writing too informal</em>. While we encourage you to use a vivid language, overdoing it may have the opposite effect.</li>
+<li><em>Writing without focus</em>. Within any sentence, within any paragraph and within every section, it must be clear to the reader what the thesis is about and why the current issue is important.</li>
+<li><em>Writing too complicated</em>. You explain a subject matter more complicated than it ought to be. Explaining things simple is not easy, but exactly this is what your job as a writer includes, and what is also rewarded.</li>
 </ul>
+<p>If you manage to prevent the above problems, you are probably on the right track.</p>
 <h2 id="effective-paragraphs"><span class="header-section-number">3.3</span> Effective Paragraphs</h2>
 <p>Paragraphs are the ideal units of work when writing. You should try to write a complete paragraph at a time. This may sound surprising, since you may think that the units of work are sentences or entire sections. But sentences are too small to handle when planning a thesis. Developing an argument also takes more than one sentence. Sections, on the other hand, are too large. You may plan to write a section, but only while you develop its paragraphs you will find out if the section works as intended or not. Therefore, you should focus on paragraphs. When you design paragraphs correct, you will be able to move them and work efficiently with text.</p>
 <p>A paragraph discusses a single point only. Further details in the paragraph should only support its main point. A paragraph has a good key sentence at its beginning that summarizes the main idea, and then refines it. The key sentence is often the first sentence of a paragraph. Having proper key sentences makes it easy for the reader to follow your report.</p>
@@ -350,17 +354,20 @@ Setting the text, tables and figures into PDF.
 <p>To increase readability, use simple sentences. The writing style of Ernest Hemingway is an example for a simple writing style. Do a web search for <em>writing rules hemingway</em>, and read on. Some guidelines are the following:</p>
 <ul>
 <li>Use short sentences.</li>
-<li>Use positive formulations, not negative ones.</li>
-<li>Use active voice.</li>
+<li>Use positive formulations, not negative ones. Avoid double negations.</li>
+<li>Use active voice.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></li>
 <li>Avoid adverbs.</li>
 </ul>
-<p>The web application <em>Hemingway</em><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> evaluates with an algorithm how easy it is to understand a text. This application highlights adverbs, passive voice, or sentences that are hard to read.</p>
-<p>Sentence in passive voice: <em>To calculate the speed the following formula is used.</em> In active voice: <em>To calculate the speed, we use the following formula.</em></p>
-<h2 id="avoid-jargon"><span class="header-section-number">3.5</span> Avoid Jargon</h2>
-<p>Always make sure that words you use have the proper meaning and that the reader can be understand them. Sometimes you may be tempted to use words that you have read in other places, where they were used in a specific context. When you use them in your thesis, the reader may not understand them. An example is the word “lightweight.” It’s a word that is easy to use, but it is often not clear what it actually means. Instead, try to use another word or formulation that describes better what you want to say.</p>
-<h2 id="avoid-unnecessary-adjectives"><span class="header-section-number">3.6</span> Avoid Unnecessary Adjectives</h2>
+<p>The web application <em>Hemingway</em><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> evaluates with an algorithm how easy it is to understand a text. This application highlights adverbs, passive voice, or sentences that are hard to read.</p>
+<h2 id="make-your-point"><span class="header-section-number">3.5</span> Make Your Point</h2>
+<p>A common problem is that an argument is not fully developed, and that you leave the actual point you should address unsaid. In scientific writing, you should make sure to include your main point explicitly and not leave it up to the reader to complete your paragraphs in their thoughts. Rather say something important twice than not at all!</p>
+<p>To make sure that you make your main points, manage them actively. Have a separate document with the main arguments and results of your thesis, and try to formulate them as explicitly and bold as possible. Your supervisors can help with that. Then, make sure that these arguments are sufficiently visible in the final version of the thesis, and occur at the appropriate places in the abstract, introduction, main part and the end.</p>
+<h2 id="avoid-jargon"><span class="header-section-number">3.6</span> Avoid Jargon</h2>
+<p>Always make sure that words you use have the proper meaning and that the reader can be understand them. Sometimes you may be tempted to use words that you have read in other places, where they were used in a specific context. When you use them in your thesis, the reader may not understand them.</p>
+<p>An example is the word “lightweight.” It’s a word that is easy to use, but it is often not clear what it actually means. Instead, try to use another word or formulation that describes better what you want to say.</p>
+<h2 id="avoid-unnecessary-adjectives"><span class="header-section-number">3.7</span> Avoid Unnecessary Adjectives</h2>
 <p>When you write a text for the first time, you will often use more attributes than necessary. You should only use attributes when they are justified. Therefore, read your text with the adjectives removed. You will often observe that the text without the attributes is clearer.</p>
-<h2 id="citation-of-definitions"><span class="header-section-number">3.7</span> Citation of Definitions</h2>
+<h2 id="citation-of-definitions"><span class="header-section-number">3.8</span> Citation of Definitions</h2>
 <p>Sometimes it seems like a good idea to include a definition of a certain concept, to introduce it to the reader. In most cases, however, this is more boring than helpful. Consider if the citation of a definition really adds anything to your text. Instead, explain a concept with your own words, or describe how your own usage deviates from other meanings of a word.</p>
 <p>In the example above, we could have introduced that “jargon” is defined as <em>“special words or expressions used by a profession or group that are difficult for others to understand”</em>.<a href="">:2</a> This is relevant to the reader, but the definition really does not add anything to the main point.</p>
 <h1 id="editing"><span class="header-section-number">4</span> Editing</h1>
@@ -383,13 +390,17 @@ Setting the text, tables and figures into PDF.
 <li>Only hand out versions of your work to others that are at least edited a first round. You will receive much more useful feedback on paragraphs that do not contain editing errors, simply because one can focus on the actual content.</li>
 </ul>
 <h1 id="correct-citations-and-plagiarism"><span class="header-section-number">5</span> Correct Citations and Plagiarism</h1>
-<p>The most serious issue is that of plagiarism. Plagiarism happens whenever you use the words of others without marking them correctly, so that the reader is not aware that they are not your own. With <em>words</em>, we mean complete paragraphs, sentences, and even parts of sentences. We can distinguish two forms of plagiarism:</p>
+<p>Plagiarism is probably the most severe issue of misconduct that can happen during writing. The consequences of plagiarism are quite severe, and can go beyond the thesis and also affect further studies.</p>
+<p>Plagiarism happens whenever you use the words of others without marking them correctly, so that the reader is not aware that they are not your own. With <em>words</em>, we mean complete paragraphs, sentences, but also parts of sentences. Also direct translations from one language to another are a form of plagiarism.</p>
+<p>When your thesis is graded, plagiarism is usually easily detected. Not only by automated tools that compare the document with others. It is usually also very simple to spot places in the text that are copied from somewhere else. Without going into details, they just “smell different” when reading.</p>
+<p>We can distinguish two forms of plagiarism:</p>
 <ul>
-<li><strong>Intentional:</strong> Some students, luckily a minority, copy intentionally. This is just plain fraud. However, this almost never plays out well since plagiarism is extremely easy to identify for an experienced censor. The consequences for your further studies are quite severe.</li>
-<li><strong>By Accident:</strong> More often happens a form of plagiarism without bad intentions, but simply because of lack of knowledge, naïvety, or bad craftsmanship during writing. Still, the consequences may be the same.</li>
+<li><strong>Intentional:</strong> In this case, the writer copies information from somewhere else without credit, and with the intention to present these ideas as their own.</li>
+<li><strong>Unintentional:</strong> More often happens a form of plagiarism without bad intentions, but simply because of lack of knowledge, naïvety, or bad craftsmanship during writing.</li>
 </ul>
-<p>There are also situations in between, where it is not clear if the author attempts to cheat or is just a clumsy writer. You must therefore actively work to avoid ambiguous situations. You must not leave it unclear which parts of a text are citations an which are your own words. Always make it obvious which words are taken from others and cite technically correctly.</p>
-<p>As a guideline: It should be possible for the reader to highlight with a marker pen exactly those words that you have taken or adapted from other sources. Double-check if it possible for a reader to misunderstand. If yes, mark the citations better. When yo have doubts, ask your supervisor.</p>
+<p>There are also situations in between, where it is not clear if the author attempts to cheat or is just a clumsy writer. Assuming that you have no bad intentions, we will therefore in the following focus on how to avoid unintentional forms of plagiarism.</p>
+<p>The key is that you must actively work to avoid ambiguous situations in which it is not clear which parts of a text are citations and which are your own words. Always make it obvious which words are taken from others and cite technically correctly.</p>
+<p>As a guideline: It should be possible for the reader to highlight with a marker pen exactly those words that you have taken or adapted from other sources. Double-check if it possible for a reader to misunderstand. If yes, mark the citations better. If yo have doubts, ask your supervisor.</p>
 <h2 id="citing-figures"><span class="header-section-number">5.1</span> Citing Figures</h2>
 <p>The rule for words also holds for figures, including illustrations, diagrams and photos. It must be clear if you copied a figure, if you made changes to an existing one, or if developed and developed a figure completely on your own. Include the corresponding information in the caption of the figure.</p>
 <p>As a guideline:</p>
@@ -398,7 +409,7 @@ Setting the text, tables and figures into PDF.
 <li>If you take a figure from somewhere else but make modifications to it, include the sentence <em>“Adapted from [Y].”</em></li>
 <li>If you do not refer to any other source, you implicitly state that you have created the figure on your own. Again, it is your responsibility to avoid any misunderstandings.</li>
 </ul>
-<p><strong>Tip: Avoid Copy/Paste Accidents</strong> Never even copy and paste text from somewhere else into your work without immediately marking it with a reference. In this way, you never come into a situation where you are unsure if a snippet of text originates from you or somebody else.</p>
+<p><strong>Tip: Avoid Copy/Paste Accidents.</strong> Never even copy and paste text from somewhere else into your work without immediately marking it with a reference. In this way, you never come into a situation where you are unsure if a snippet of text originates from you or somebody else.</p>
 <h1 id="figures"><span class="header-section-number">6</span> Figures</h1>
 <p>Good figures are hard to make, but they are valuable when explaining something to the reader. You should therefore invest time to create good figures. This can also help to understand a problem or subject better yourself, and it can be a good way to overcome troubles with writing in the beginning.</p>
 <h2 id="introduce-and-explain-all-figures"><span class="header-section-number">6.1</span> Introduce and Explain all Figures</h2>
@@ -422,7 +433,8 @@ Setting the text, tables and figures into PDF.
 <h1 id="formatting"><span class="header-section-number">7</span> Formatting</h1>
 <p>This part is probably the easiest, though the most detailed. Once you have good sentences and paragraphs, you should also get the punctuation and spelling right.</p>
 <h2 id="use-latex"><span class="header-section-number">7.1</span> Use LaTeX</h2>
-<p>For scientific writing, LaTeX is pretty much standard, and by far the most theses are written with it. There is also lots of help available on the web. For your needs, standard templates and styles should work quite well.</p>
+<p>For scientific writing, LaTeX is pretty much standard, and most theses and scientific articles are written with it.</p>
+<p>There is a learning curve, as you need to understand some of the LaTeX language. However, there is also lots of help available on the web. For your needs, standard templates and styles should work quite well.</p>
 <p>One of the benefits of LaTeX, apart from its high-quality output, is the fact that it uses normal text files as input, which simplifies versioning and backup. You can for instance use Git both for taking care of incremental changes and as additional backup. You can also use any text editor of your choice.</p>
 <h2 id="placement-of-punctuation-marks-and-spaces"><span class="header-section-number">7.2</span> Placement of Punctuation Marks and Spaces</h2>
 <p>Place commas and points correctly. Also leave exactly one space between words. Two spaces must never follow each other. The following lines all contain a problem:</p>
@@ -430,7 +442,7 @@ Setting the text, tables and figures into PDF.
 <h2 id="semicolons"><span class="header-section-number">7.3</span> Semicolons</h2>
 <p>When you use a semicolon, there is a big chance that you are using it wrong, or that it is not necessary at all. Therefore, don’t use semicolons.</p>
 <h2 id="footnotes"><span class="header-section-number">7.4</span> Footnotes</h2>
-<p>Footnote marks at the end of sentences should be placed <em>after</em> the period, like in this sentence.<a href="kraemer@ntnu.no">3</a> In LaTeX, the necessary code looks like this:</p>
+<p>Footnote marks at the end of sentences should be placed <em>after</em> the period, like in this sentence.[3][2] In LaTeX, the necessary code looks like this:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode latex"><code class="sourceCode latex"><a class="sourceLine" id="cb2-1" data-line-number="1">...this sentence.<span class="fu">\footnote</span>{...}</a></code></pre></div>
 <h2 id="quotation-marks"><span class="header-section-number">7.5</span> Quotation Marks</h2>
 <p>Correct quotation marks are produced in LaTeX by the following characters ``<code>quoted''</code> to produce “quoted.” Note that each quotation mark consists of two characters.</p>
@@ -448,7 +460,7 @@ Setting the text, tables and figures into PDF.
 </ul>
 <p>The former is typically used for publications on the web that are read in a browser, while the latter is often used for publications on PDF and paper. It is not allowed to simply start a new line, but without either extra space between the paragraphs or without the indentation.</p>
 <h2 id="citations"><span class="header-section-number">7.8</span> Citations</h2>
-<p>Citations must always be grouped within their brackets, that means [1,2] instead of <a href="kraemer@ntnu.no">1</a>,<a href="kraemer@ntnu.no">2</a>. If numbers are used, they should in the end be sorted so that the numbers are sorted in increasing order.</p>
+<p>Citations must always be grouped within their brackets, that means [1,2] instead of [1][3],[2]. If numbers are used, they should in the end be sorted so that the numbers are sorted in increasing order.</p>
 <p>To have a proper blank between the text and a citation, use a tilde and write <code>...means~\cite{QUOTE1,QUOTE2}</code>.</p>
 <p>Figures that are not produced by the author for that specific document must be also cited within the caption of the figure.</p>
 <p>Citations at the end of a sentence must still appear within the sentence, that means before the period.</p>
@@ -474,18 +486,19 @@ Setting the text, tables and figures into PDF.
 <p>An exception is the percent sign, for which we find different practices. I suggest that you do <em>not</em> add a space between a number and the percent symbol, i.e, write 30% instead of 30 %. Note that you need to escape the percent sign in LaTeX, i.e., write <code>30\%</code>.</p>
 <h1 id="other-style-issues"><span class="header-section-number">8</span> Other Style Issues</h1>
 <h2 id="model-and-program-names"><span class="header-section-number">8.1</span> Model and Program Names</h2>
-<p>Names of Java or UML classes should be written in normal english form, that means for instance <em>state machine</em> instead of <em>StateMachine</em>. When it should be made clear that a specific name is meant, the name should be printed emphasized, to make clear that you write about the UML class <em>StateMachine</em>. Since most programming languages use American English (UML refers to <em>behavior</em>, not <em>behaviour</em>), you may want to use American English for the entire text.</p>
+<p>Names of Java or UML classes should be written in normal English form, that means for instance <em>state machine</em> instead of <em>StateMachine</em>. When it should be made clear that a specific name is meant, the name should be printed emphasized, to make clear that you write about the UML class <em>StateMachine</em>. Since most programming languages use American English (UML refers to <em>behavior</em>, not <em>behaviour</em>), you may want to use American English for the entire text.</p>
 <h2 id="avoid-referring-to-he-or-she"><span class="header-section-number">8.2</span> Avoid Referring to “He” or “She”</h2>
 <p>Avoid referring to gender in examples. Usually this is possible by using plural. For instance <em>“…users may operate their phones…”</em></p>
-<ol type="1">
-<li><a href="">http://www.hemingwayapp.com</a></li>
-<li>Merriam Webster. Merriam-Webster, Inc. Archived from the original on 29 March 2013. Retrieved 29 March 2013.</li>
-<li>Footnote with correctly placed mark.</li>
-</ol>
+<!--
+1. [http://www.hemingwayapp.com]()
+2. Merriam Webster. Merriam-Webster, Inc. Archived from the original on 29 March 2013. Retrieved 29 March 2013.
+3. Footnote with correctly placed mark.
+-->
 <section class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>http://www.hemingwayapp.com<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>Here is an example for a sentence in passive voice: <em>To calculate the speed, the following formula is used.</em> In active voice: <em>To calculate the speed, we use the following formula.</em><a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>http://www.hemingwayapp.com<a href="#fnref2" class="footnote-back">↩</a></p></li>
 </ol>
 </section>
 
@@ -497,7 +510,7 @@ Setting the text, tables and figures into PDF.
   <div class="col-md-3">
   	 <nav id="TOC" style="padding: 3rem 2rem;">
 <ul>
-<li><a href="#towards-your-thesis-report"><span class="toc-section-number">1</span> Towards Your Thesis Report</a></li>
+<li><a href="#the-thesis-report"><span class="toc-section-number">1</span> The Thesis Report</a></li>
 <li><a href="#planning-the-report"><span class="toc-section-number">2</span> Planning the Report</a><ul>
 <li><a href="#the-abstract"><span class="toc-section-number">2.1</span> The Abstract</a></li>
 <li><a href="#the-introduction"><span class="toc-section-number">2.2</span> The Introduction</a></li>
@@ -512,9 +525,10 @@ Setting the text, tables and figures into PDF.
 <li><a href="#tip-check-your-key-sentences"><span class="toc-section-number">3.3.1</span> Tip: Check Your Key Sentences</a></li>
 </ul></li>
 <li><a href="#aim-for-readability"><span class="toc-section-number">3.4</span> Aim for Readability</a></li>
-<li><a href="#avoid-jargon"><span class="toc-section-number">3.5</span> Avoid Jargon</a></li>
-<li><a href="#avoid-unnecessary-adjectives"><span class="toc-section-number">3.6</span> Avoid Unnecessary Adjectives</a></li>
-<li><a href="#citation-of-definitions"><span class="toc-section-number">3.7</span> Citation of Definitions</a></li>
+<li><a href="#make-your-point"><span class="toc-section-number">3.5</span> Make Your Point</a></li>
+<li><a href="#avoid-jargon"><span class="toc-section-number">3.6</span> Avoid Jargon</a></li>
+<li><a href="#avoid-unnecessary-adjectives"><span class="toc-section-number">3.7</span> Avoid Unnecessary Adjectives</a></li>
+<li><a href="#citation-of-definitions"><span class="toc-section-number">3.8</span> Citation of Definitions</a></li>
 </ul></li>
 <li><a href="#editing"><span class="toc-section-number">4</span> Editing</a></li>
 <li><a href="#correct-citations-and-plagiarism"><span class="toc-section-number">5</span> Correct Citations and Plagiarism</a><ul>
