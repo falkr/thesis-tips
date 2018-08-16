@@ -10,7 +10,7 @@ abstract: |
 
 # The Thesis Report
 
-When you write your thesis, you do of course much more than just writing. You study literature, make experiments, build prototypes or perform other research activities to gain some results. In this guide, we focus on the more technical issues of writing, editing and formatting.
+When you write your thesis, you do of course much more than just *writing*. You study literature, make experiments, build prototypes or perform other research activities to gain some results. In this guide, we focus on the more technical issues of writing, editing and formatting.
 
 First of all — it’s important that you spend enough effort on the report, because the censor of the thesis often only learns about your results through reading the report. If the report is flawed, even good results won’t be visible.
 
