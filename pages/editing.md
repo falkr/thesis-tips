@@ -1,6 +1,6 @@
 # Editing
 
-<span class="key">Whenever you have written some portion of text, you should consider a round of editing.</span> Proper editing is an important part of your work. It aims at providing your arguments in the best possible way. Don’t think of editing as correcting because you somehow did a bad job during writing. Even very talented writers don’t produce perfect sentences on their first attempt. Often, several rounds of editing are necessary.
+<span class="key">Whenever you have written some portion of text, you should consider a round of editing.</span> Proper editing is an important part of your work. It aims at providing your arguments in the best possible way. Don’t think of editing as correcting because you somehow did a bad job during writing. Even routined writers don’t produce perfect sentences on their first attempt. Often, several rounds of editing are necessary.
 
 <span class="key">*Editing* is different from *writing*.</span> When writing, you focus on the subject of your thesis, your thoughts, and the arguments you need to present to the reader.
 When editing, you are mostly concerned with readability. Compared to doing the experiments or writing, editing is a relatively simple task that gets easier the more you do it.
@@ -12,12 +12,12 @@ When editing, you are mostly concerned with readability. Compared to doing the e
 
 <span class="key">A good writing style effectively communicates your arguments and results to the reader.</span> It may take some time to develop such a style, and it’s hard to give clear instructions what a good writing style is. However, it’s easier to point out what *not* to do:
 
-  - *Writing too verbose*. It’s obvious that you try to use as many words as possible.
-  - *Writing too short*. You don’t explain things good enough, do not deliver	enough examples, do not explain figures completely, or even fail to fully develop your arguments.
-  - *Writing too formal*. Scientific and technical writing can be precise without being too formal.
-  - *Writing too informal*. While we encourage you to use a vivid language, overdoing it may have the opposite effect.
-  - *Writing without focus*. Within any sentence, within any paragraph and within every section, it must be clear to the reader what the thesis is about and why the current issue is important.
-  - *Writing too complicated*. You explain a subject matter more complicated	than it ought to be. Explaining things simple is not easy, but exactly this is what your job as a writer includes, and what is also rewarded.
+  - *Writing too verbose*. You try to use as many words as possible, wich makes your thesis cumbersome to read. The reader may also get the impression that you dod not work with your arguments. Instead, work with your arguments and make them more compact. 
+  - *Writing too short*. You don’t explain things good enough, do not deliver enough examples, do not explain figures completely, or even fail to fully develop your arguments.
+  - *Writing too formal*. You use an overly formal and stiff language that sounds artificial and does not help understanding or bringing your point across. Instead, scientific and technical writing can be precise without being too formal.
+  - *Writing too informal*. While we encourage you to use a vivid language, overdoing it may have the opposite effect. Be clear and concise, but don't try to be funny or so.
+  - *Writing without focus*. Within any sentence, within any paragraph and within every section, it must be clear to the reader what the thesis is about and why the current issue is important. 
+  - *Writing too complicated*. You explain a subject matter more complicated	than it ought to be. Explaining things simple is not easy, but exactly this is what your job as a writer includes, and what is also rewarded. This may require you to structure your arguments in a certain order, separate primary concerns and main arguments from secondary concerns and details.
 
 If you manage to prevent the above problems, you are probably on the right track. 
 
@@ -25,7 +25,7 @@ If you manage to prevent the above problems, you are probably on the right track
 
 <span class="key">Formulate your thoughts and arguments as simple as possible.</span> Only if you have understood something, you can express it in simple terms. Or vice-versa, to express something in simple terms, you have to understand it. Most readers are not impressed by complicated formulations, but rather annoyed.
 
-<span class="key">Use simple sentences to increase readability.</span> The writing style of Ernest Hemingway is an example for a simple writing style. Do a web search for *writing rules hemingway*, and read on. Some guidelines are the following:
+<span class="key">Use simple sentences to increase readability.</span> The writing style of Ernest Hemingway is an example for a simple writing style. Do a web search for [writing rules hemingway](https://lmgtfy.com/?q=writing+rules+hemingway), and read on. Some guidelines are the following:
 
 - Use short sentences.
 - Use positive formulations, not negative ones. Avoid double negations.
@@ -40,7 +40,7 @@ If you manage to prevent the above problems, you are probably on the right track
 Always make sure that words you use have the proper meaning and that the reader can be understand them. Sometimes you may be tempted to use words that you have read in other places, where they were used in a specific context. When you use them in your thesis, the reader may not understand them. 
 
 An example is the word “lightweight”, as in _"...this is a lightweight protocol..."_.  
-What does lightweight really mean? The number of messages the protocol uses? The number of bytes? Then write that instead! 
+What does _lightweight_ really mean? The number of messages the protocol uses? The number of bytes? Then write that instead! 
 
 ## Avoid Unnecessary Adjectives
 
@@ -78,8 +78,7 @@ Vice-versa, if your paragraph is too short or cannot stand on its own, it may wo
 ## Citation of Definitions
 
 Sometimes it seems like a good idea to include a definition of a certain concept, to introduce it to the reader. In most cases, however, this is more boring than helpful. Consider if the citation of a definition really adds anything to your text. Instead, explain a concept with your own words, or describe how your own usage deviates from other meanings of a word.
-
-In the example above, we could have introduced that “jargon” is defined as *“special words or expressions used by a profession or group that are difficult for others to understand”*.[:2]() This is relevant to the reader, but the definition really does not add anything to the main point.
+In the example above, we could have introduced that “jargon” is defined as *“special words or expressions used by a profession or group that are difficult for others to understand”*. This is relevant to the reader, but the definition really does not add anything to the main point.
 
 
 # Editing Tips

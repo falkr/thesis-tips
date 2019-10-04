@@ -6,7 +6,7 @@ We discussed the different parts the report consists of, and turn our attention 
 
 Getting started with the writing can be difficult. The editor window is empty, and it can be overwhelming to come up with good sentences. There are different approaches to start writing, and we capture some of them in this section. Most probably you will use more than one, and switch between them once you get stuck. 
 
-Focus on describing your thoughts and putting them down on paper. Don’t spend any time on making your document pretty, or be too much concerned about other details that do not affect your arguments. You can take care of this in the later rounds of editing and then formatting. It may therefore also be wise to use a very simple editor in the initial writing phase, without any formatting or disturbing functions. Some writers make the initial sketch of an argument with pencil and paper.
+Focus on describing your thoughts and putting them down on paper. Don’t spend any time on making your document pretty, or be too much concerned about other details that do not affect your arguments. You can take care of this in the later rounds of editing and formatting. It may therefore also be wise to use a very simple editor in the initial writing phase, without any formatting or disturbing functions. Some writers make the initial sketch of an argument with pencil and paper.
 
 :tip: **Don't be afraid to throw away stuff.** It may seem like a good idea to take care of all sentences you have written and not delete them. But sometimes an editor full of sentences that you don't like but don't want to throw away either is holding you back. Don't be afraid to start with a fresh attempt and throw things you don't like away. (If throwing away still feels wrong, make a directory with the name `trash` and copy your text in there.)
 
@@ -20,7 +20,7 @@ Below we present the main elements of a thesis, which are most likely also relev
 
 The task of the abstract is to summarize the content of the thesis, so that potential readers can decide if they should read it or not. It should say something about the problem addressed, outline methods used and summarize results.
 
-The most common mistake of abstracts is that writers start to argue for their viewpoint,  advertise for the remaining parts of the work, or motivate their work. Instead, an abstract should summarize in a neutral way. Motivating your work is the task of the introduction, and argumentation should be done in the main part and the end.
+The abstract is a summary, not an introduction: The most common mistake of abstracts is that writers start to argue for their viewpoint,  advertise for the remaining parts of the work, or motivate their work. Instead, an abstract should summarize in a neutral way. Motivating your work is the task of the introduction, and argumentation should be done in the main part and the end.
 
 [Read more about abstracts](http://libguides.usc.edu/writingguide/abstract).
 
@@ -39,7 +39,7 @@ After reading the introduction, the reader must know *why* you have done the wor
 
 The background chapter summarizes all subjects that need introduction and are later used in the thesis. Often, one chapter simply called *Background* will do, with sub-sections for each subject that requires introduction. In some cases you may spread the background in two or even more chapters. You may then assign all of them to a part called *Part 1 – Background*, but there are no formal constrains. It is only important that a reader sees clearly what constitutes background material, and that background material is explained before you start describing your own work.
 
-Since you will often start your work by reading other’s work that constitutes background material, it is often a good idea to start early writing parts of this section early. Don’t be afraid of some of the material does not make it into the final version.  It provided a good training for writing.
+Since you will often start your work by reading other’s work that constitutes background material, it is a good idea to start writing parts of this section early. Don’t be afraid of some of the material does not make it into the final version.  It provides a good training for writing.
 
 ### The Main Part
 
@@ -57,9 +57,9 @@ The end of your report consists of several elements:
 
 While the first two are in practice mandatory, the outlook in the future is optional. You may structure these parts as separate chapters, or within a single chapter.
 
-:tip: **Planning has its limits.** No question---you need to plan what to write and where to spend your effort.
-But don't attempt to plan to much, that is, plan too many details.
-At some point, you need to get started with writing the actual content before you can decide of the planned structire actually works.
+:tip: **Planning has its limits.** You need to plan what to write and where to spend your effort, no question.
+But don't attempt to plan too much, that is, plan too many details.
+At some point, you need to get started with writing the actual content before you can decide if the planned structire actually works.
 
 
 :tip: **How many pages?** One common question is the number of pages the report should have. This is difficult to answer, since the number of pages really does not say anything about the quality of a thesis. In the end, you should use the number of pages that you need to present and discuss your work appropriately.
@@ -79,16 +79,16 @@ You must introduce all figures in the text. If possible, you should place the fi
 
 ## Describe the Problem
 
-After working on the same problem for a while, it may become obvious to you and you instead focus on the solution or technicalities that kept you busy during the last days. Therefore, always start by writing about the problem. Try to explain the problem you are trying to solve to others, and see of they get it. 
+After working on the same problem for a while, it may become obvious to you and you instead focus on the solution or technicalities that kept you busy during the last days. Therefore, always start by writing about the problem. Try to explain the problem you are trying to solve to others, and see if they get it. 
 
 ## Formulate Arguments
 
-A common problem is that an argument is not fully developed, and  that you leave the actual point you should address unsaid. In scientific writing, you should make sure to include your main point explicitly and not leave it up to the reader to complete your paragraphs in their thoughts. Rather say something important twice than not at all! Some students also forget to write what they regard as _obvious_. However, not everything obvious to you may also be obvious to the reader.
+A common problem is that an argument is not fully developed, and  that you leave the actual point you should address unsaid. In scientific writing, you should make sure to include your main point explicitly and not leave it up to the reader to complete your paragraphs in their thoughts. Rather say something important twice than not at all! Some students also forget to write what they regard as "obvious". However, not everything obvious to you may also be obvious to the reader. 
 
 
 ## Make Your Point
 
-To make sure that you make your main points, manage them actively. Have a separate document with the main arguments and results of your thesis, and try to formulate them as explicitly as possible. Your supervisors can help with that. Then, make sure that these arguments are sufficiently visible in the final version of the thesis, and occur at the appropriate places in the abstract, introduction, main part and the end.
+To make sure that you make your main points, manage them actively. Have a separate document with the main arguments and results of your thesis, and try to formulate them as explicitly as possible. Your supervisor can help with that. Then, make sure that these arguments are visible in the final version of the thesis, and occur at the appropriate places in the abstract, introduction, main part and the end.
 
 
 # When You Feel Stuck
@@ -98,9 +98,15 @@ To make sure that you make your main points, manage them actively. Have a separa
 A useful skill is to imitate a person that does not know what you know. You have to ask the question which information or issue you want to convey to the reader, write them down, and then refine once you find out what else is needed so that all information is presented in a proper context. 
 
 
-## 10 minute writing sprints
+## Writing Sprints
 
 When nothing else helps and you feel stuck, try to write down your thoughts for a while, like 10 minutes. It's not allowed to delete anything while you write, and you should not focus on language or technicalities. After the time is up, have a look at the result and see if you can take parts of the result as a starting point for developing your arguments. 
 
+
+## Have a Walk
+
+Sometimes just going out for a walk and talking to yourself may help to sort your thoughts and develop an argument. 
+Have a notebook with you to write down good points.
+Just do it out in a park or in nature so you don't get hit by a car.
 
 <a type="button" href="editing.html" class="btn btn-outline-secondary float-right">Editing <i class="fas fa-arrow-right"></i></a>

@@ -11,5 +11,13 @@ One of the benefits of LaTeX, apart from its high-quality output, is the fact th
 
 ## Use Git
 
+Git is a versioning system that lets you keep a local copy of the repository, manage your commits to it locally and then also push it to other repositories. 
+You can also tag different versions. 
+
+For writing, a nice aspect is that you can create commits for different portions of your work, so that you can also review your changes you made in a work session, similar to incremental work in programming.
+
+A good practice is to start each sentence on a new line, so you can easily see changes in your work on a sentence level when you commit them.
 
 ## Make Backups
+
+Of course, make sufficiently backups of your work, both on-site and off-site.
