@@ -1,6 +1,6 @@
 # Editing
 
-<span class="key">Whenever you have written some portion of text, you should consider a round of editing.</span> Proper editing is an important part of your work. It aims at providing your arguments in the best possible way. Don’t think of editing as correcting because you somehow did a bad job during writing. Even routined writers don’t produce perfect sentences on their first attempt. Often, several rounds of editing are necessary.
+<span class="key">Whenever you have written some portion of text, you should consider a round of editing.</span> Proper editing is an important part of your work. It aims at providing your arguments in the best possible way. Don’t think of editing as correcting because you somehow did a bad job during writing. Even experienced writers don’t produce perfect sentences on their first attempt. Often, several rounds of editing are necessary.
 
 <span class="key">*Editing* is different from *writing*.</span> When writing, you focus on the subject of your thesis, your thoughts, and the arguments you need to present to the reader.
 When editing, you are mostly concerned with readability. Compared to doing the experiments or writing, editing is a relatively simple task that gets easier the more you do it.
@@ -12,18 +12,18 @@ When editing, you are mostly concerned with readability. Compared to doing the e
 
 <span class="key">A good writing style effectively communicates your arguments and results to the reader.</span> It may take some time to develop such a style, and it’s hard to give clear instructions what a good writing style is. However, it’s easier to point out what *not* to do:
 
-  - *Writing too verbose*. You try to use as many words as possible, wich makes your thesis cumbersome to read. The reader may also get the impression that you dod not work with your arguments. Instead, work with your arguments and make them more compact. 
-  - *Writing too short*. You don’t explain things good enough, do not deliver enough examples, do not explain figures completely, or even fail to fully develop your arguments.
+  - *Writing too verbose*. You try to use as many words as possible, which makes your thesis cumbersome to read. The reader may also get the impression that you did not work with your arguments. Instead, work with your arguments and make them more compact. 
+  - *Writing too short*. You don’t explain things well enough, do not deliver enough examples, do not explain figures completely, or even fail to fully develop your arguments.
   - *Writing too formal*. You use an overly formal and stiff language that sounds artificial and does not help understanding or bringing your point across. Instead, scientific and technical writing can be precise without being too formal.
   - *Writing too informal*. While we encourage you to use a vivid language, overdoing it may have the opposite effect. Be clear and concise, but don't try to be funny or so.
   - *Writing without focus*. Within any sentence, within any paragraph and within every section, it must be clear to the reader what the thesis is about and why the current issue is important. 
-  - *Writing too complicated*. You explain a subject matter more complicated	than it ought to be. Explaining things simple is not easy, but exactly this is what your job as a writer includes, and what is also rewarded. This may require you to structure your arguments in a certain order, separate primary concerns and main arguments from secondary concerns and details.
+  - *Writing too complicated*. You explain a subject matter more complicated	than it ought to be. Explaining things simply is not easy, but exactly this is what your job as a writer includes, and what is also rewarded. This may require you to structure your arguments in a certain order, separate primary concerns and main arguments from secondary concerns and details.
 
 If you manage to prevent the above problems, you are probably on the right track. 
 
 ## Aim for Readability
 
-<span class="key">Formulate your thoughts and arguments as simple as possible.</span> Only if you have understood something, you can express it in simple terms. Or vice-versa, to express something in simple terms, you have to understand it. Most readers are not impressed by complicated formulations, but rather annoyed.
+<span class="key">Formulate your thoughts and arguments as simple as possible.</span> Only if you have understood something, you can express it in simple terms. Or vice versa, to express something in simple terms, you have to understand it. Most readers are not impressed by complicated formulations, but rather annoyed.
 
 <span class="key">Use simple sentences to increase readability.</span> The writing style of Ernest Hemingway is an example for a simple writing style. Do a web search for [writing rules hemingway](https://lmgtfy.com/?q=writing+rules+hemingway), and read on. Some guidelines are the following:
 
@@ -37,7 +37,7 @@ If you manage to prevent the above problems, you are probably on the right track
 
 ## Avoid Jargon
 
-Always make sure that words you use have the proper meaning and that the reader can be understand them. Sometimes you may be tempted to use words that you have read in other places, where they were used in a specific context. When you use them in your thesis, the reader may not understand them. 
+Always make sure that words you use have the proper meaning and that the reader can understand them. Sometimes you may be tempted to use words that you have read in other places, where they were used in a specific context. When you use them in your thesis, the reader may not understand them. 
 
 An example is the word “lightweight”, as in _"...this is a lightweight protocol..."_.  
 What does _lightweight_ really mean? The number of messages the protocol uses? The number of bytes? Then write that instead! 
@@ -57,14 +57,14 @@ In many cases, you can get <span class="unnecessary">very</span> surprised how m
 
 # Effective Paragraphs
 
-<span class="key">Paragraphs are the ideal units of work when writing.</span> You should try to write a complete paragraph at a time. This may sound surprising, since you may think that the units of work are sentences or entire sections. But sentences are too small to handle when planning a thesis. Developing an argument also takes more than one sentence. Sections, on the other hand, are too large. You may plan to write a section, but only while you develop its paragraphs you will find out if the section works as intended or not. Therefore, you should focus on paragraphs. When you design paragraphs correct, you will be able to move them and work efficiently with text.
+<span class="key">Paragraphs are the ideal units of work when writing.</span> You should try to write a complete paragraph at a time. This may sound surprising, since you may think that the units of work are sentences or entire sections. But sentences are too small to handle when planning a thesis. Developing an argument also takes more than one sentence. Sections, on the other hand, are too large. You may plan to write a section, but only while you develop its paragraphs you will find out if the section works as intended or not. Therefore, you should focus on paragraphs. When you design paragraphs correctly, you will be able to move them and work efficiently with text.
 
 <span class="key">A paragraph discusses a single point only.</span> Further details in the paragraph should only support its main point. A paragraph has a good key sentence at its beginning that summarizes the main idea, and then refines it. The key sentence is often the first sentence of a paragraph. Having proper key sentences makes it easy for the reader to follow your report.
 
 If you have troubles to design a good paragraph, ask yourself which main idea it should communicate to the reader. Formulate a guiding question for the paragraph. This question is only intended for yourself and not contained in the final report. When using LaTeX, you may write this question as a comment above the paragraph.
 
 Ask yourself if a paragraph should be divided into several ones. A subject matter may turn out more complicated and need more than one paragraph to explain it.
-Vice-versa, if your paragraph is too short or cannot stand on its own, it may work better after combining it with another paragraph.
+Vice versa, if your paragraph is too short or cannot stand on its own, it may work better after combining it with another paragraph.
 
 :tip: **Check Your Key Sentences.** Highlight the key sentence in a paragraph with a text marker. Then read all key sentences of all paragraphs of a section. Check if they make sense when read after each other. When you see that you get a good overview of the section, and the key sentences by themselves tell a good story, they are fine. If not, improve the paragraphs.
 
@@ -97,7 +97,7 @@ To edit, do the following:
 
 Some tips regarding editing:
 
-- It makes sense to edit a paragraph even if you you are not yet sure it’s worth keeping. Sometimes, once you revisit a paragraph at a later time, you find that it works or is better than you thought when writing it in the first place. It may also happen that you get another view on it and know how to make it good. If the paragraph is edited well, this is more likely to happen.
+- It makes sense to edit a paragraph even if you are not yet sure it’s worth keeping. Sometimes, once you revisit a paragraph at a later time, you find that it works or is better than you thought when writing it in the first place. It may also happen that you get another view on it and know how to make it good. If the paragraph is edited well, this is more likely to happen.
 - Only hand out versions of your work to others that are at least edited a first round. You will receive much more useful feedback on paragraphs that do not contain editing errors, simply because one can focus on the actual content.
 
 

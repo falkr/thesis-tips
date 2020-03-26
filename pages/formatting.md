@@ -51,11 +51,11 @@ The former is typically used for publications on the web that are read in a brow
 ### Citations
 
 Citations must always be grouped within their brackets, that means [1,2,3] or [1-3] instead of [1][3],[2]. 
-If you use numbers, they should be sorted in increasing order. In Latex, this means to group all the reference keys within the same `\cite{}` command, separated by a commad.
+If you use numbers, they should be sorted in increasing order. In Latex, this means to group all the reference keys within the same `\cite{}` command, separated by a comma.
 
 To have a proper blank between the text and a citation, use a tilde and write `...means~\cite{QUOTE1,QUOTE2}`.
 
-Figures that are not produced by the author for that specific document must be also cited within the caption of the figure.
+Figures that are not produced by the author for that specific document must also be cited within the caption of the figure.
 
 Citations at the end of a sentence must still appear within the sentence, that means _before_ the period.
 
@@ -63,7 +63,7 @@ Websites should not be included as footnotes, but as proper citations, just as o
 
 ### Emphasis
 
-In general, avoid `typewriter` text and use `\emph{...}` to *emphasize* words with special meaning. Don't underline words or headings. (Underlining was useful when i times of mechanical typewriters that did not have bold or italic font variants.)
+In general, avoid `typewriter` text and use `\emph{...}` to *emphasize* words with special meaning. Don't underline words or headings. (Underlining was useful during the era of mechanical typewriters that did not have bold or italic font variants.)
 
 ### Abbreviations
 
@@ -85,7 +85,7 @@ Use a space between numbers and the subsequent unit. In LaTeX, write the followi
 
 **Wrong:** The timer is set to 5ms.
 
-An exception is the percent sign, for which we find different practices. I suggest that you add a short space between a number and the percent symbol. In Latex, you need to escape the percent sign by writing `\%`. To add a short space between number between number and percentage sign, use the `\,` command.
+An exception is the percent sign, for which we find different practices. I suggest that you add a short space between a number and the percent symbol. In Latex, you need to escape the percent sign by writing `\%`. To add a short space between number and percentage sign, use the `\,` command.
 
 ```latex
 30\,\%
@@ -132,7 +132,7 @@ caption: "Both portrait and landscape orientation are fine. Make sure landscape 
 
 ### Captions
 
-Captions are text below the figures that explain what the figures shows. Many keep these captions very short, like a single sentence or only a few words. This is a missed chance to explain more details to readers and get them interested in the entire section. Instead, use longer caption texts where it makes sense. Explain for instance all elements in a figure, or point out what is interesting in a figure. Such a more elaborated caption should come in addition to the explanation of the figure in the text. It can also be a summary of the description in the text.
+Captions are text below the figures that explain what the figures show. Many keep these captions very short, like a single sentence or only a few words. This is a missed chance to explain more details to readers and get them interested in the entire section. Instead, use longer caption texts where it makes sense. Explain for instance all elements in a figure, or point out what is interesting in a figure. Such a more elaborated caption should come in addition to the explanation of the figure in the text. It can also be a summary of the description in the text.
 
 In Latex, the cation for a figure is produced with the command `\caption{}`. The argument of this command is the text that is written under the figure. By default, it is also included in the list of figures, where you usually don’t want a long caption. In this case, use the additional argument in the square brackets to provide a short text that is included in the list of figures.
 
@@ -143,7 +143,7 @@ In Latex, the cation for a figure is produced with the command `\caption{}`. The
 ### More tips for Figures
 
 - Ensure that text in images is readable and not too small.
-- Whenever possible, use vector graphics and embed figures in PDF format. In case you need bitmap images, use PNG instead of JPEG, or ensure that JPEG is not compressed so much that compression artefacts are visible.
+- Whenever possible, use vector graphics and embed figures in PDF format. In case you need bitmap images, use PNG instead of JPEG, or ensure that JPEG is not compressed so much that compression artifacts are visible.
 - Do not use borders around figures.
 - Do not use any colored backgrounds.
 

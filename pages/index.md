@@ -2,7 +2,7 @@
 
 :abstract: This is a collection of tips for writing a thesis, with a focus on the technical process of writing, editing and formatting.
 
-:aside: <img src="figures/frank.jpg" width="100px"><p><a href="https://www.ntnu.edu/employees/kraemer">Frank Alexander Kraemer</a><br/><i class="far fa-envelope"></i> kraemer@ntnu.no</p> If you have comments and feedback or spot errors, please feel free to send me an email [email](mailto:kraemer@ntnu.no).
+:aside: <img src="figures/frank.jpg" width="100px"><p><a href="https://www.ntnu.edu/employees/kraemer">Frank Alexander Kraemer</a><br/><i class="far fa-envelope"></i> kraemer@ntnu.no</p> If you have comments and feedback or spot errors, please feel free to send me an [email](mailto:kraemer@ntnu.no).
 
 # The Thesis Report
 
@@ -11,7 +11,7 @@ Writing takes time, and you should start with it early. Writing is also an itera
 
 Starting early with the writing is also important so you can receive feedback from your supervisors. If you deliver them a version only a few days before the deadline, you cannot really benefit from their feedback and learn from it.
 
-When you write your thesis, you do of course much more than just *writing*. You study literature, make experiments, build prototypes or perform other research activities to gain some results. In this guide, we focus on the more technical issues of writing, editing and formatting. (The actual research is covered for instance by the [seminar on design science](https://falkr.github.io/designscience/index.html).)
+When you write your thesis, you do, of course, much more than just *writing*. You study literature, make experiments, build prototypes or perform other research activities to gain some results. In this guide, we focus on the more technical issues of writing, editing and formatting. (The actual research is covered for instance by the [seminar on design science](https://falkr.github.io/designscience/index.html).)
 
 ## The Writing Process
 
@@ -61,11 +61,11 @@ Writing and doing research is an iterative process, going through cycles that co
 
 In this document, we don't cover the research part, and only focus on the task to get research results onto paper. In particular, we focus on the following tasks:
 
-  - In the [writing](writing.html) phase you formulate your arguments. You can only do this effectively when you have done the research part right, and when your thoughts have matured. However, this does not mean you can only start writing during the last weeks.
+  - In the [writing](writing.html) phase, you formulate your arguments. You can only do this effectively when you have done the research part right, and when your thoughts have matured. However, this does not mean you can only start writing during the last weeks.
   - During the [editing](editing.html) phase, you take written sentences and improve their readability, clarity, style, and language. You also structure sentences and paragraphs.
   - The [formatting](formatting.html) phase is technical. It means to put the edited text into PDF so that everything looks good.
 
-It helps to be aware of the different goals of these activities, and you should at any time be aware of which of the
+It helps to be aware of the different goals of these activities, and you should be aware which of the
 ones you are doing. In practice, the borders between these activities are more blurred. When you start thinking, you will see that you need to do more research, or that you need to conduct some experiments. When you start writing, you may discover that you need to do some more thinking, and so on. Still, being aware of the different goals may help you to focus on what is important.
 
 Have a look in the menu above. We also cover the important issue of [plagiarism](plagiarism.html) and give some tips on [tools](tools.html).

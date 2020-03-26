@@ -8,7 +8,7 @@ Getting started with the writing can be difficult. The editor window is empty, a
 
 Focus on describing your thoughts and putting them down on paper. Don’t spend any time on making your document pretty, or be too much concerned about other details that do not affect your arguments. You can take care of this in the later rounds of editing and formatting. It may therefore also be wise to use a very simple editor in the initial writing phase, without any formatting or disturbing functions. Some writers make the initial sketch of an argument with pencil and paper.
 
-:tip: **Don't be afraid to throw away stuff.** It may seem like a good idea to take care of all sentences you have written and not delete them. But sometimes an editor full of sentences that you don't like but don't want to throw away either is holding you back. Don't be afraid to start with a fresh attempt and throw things you don't like away. (If throwing away still feels wrong, make a directory with the name `trash` and copy your text in there.)
+:tip: **Don't be afraid to throw stuff out.** It may seem like a good idea to take care of all sentences you have written and not delete them. But sometimes an editor full of sentences that you don't like but don't want to throw away either is holding you back. Don't be afraid to start with a fresh attempt and delete something. If throwing away still feels wrong, make a directory with the name `trash` and copy your text in there.
 
 
 # Planning the Report Structure
@@ -30,20 +30,20 @@ The introduction gives the reader the first impression of your work. Here you ca
 
 The introduction should include a summary of the work and its main content and arguments, similarly to the abstract, but in much more depth and also more details. In contrast to the abstract, an introduction should contain a motivation for your work.
 
-After reading the introduction, the reader must know *why* you have done the work, *why* it is interesting, *what* they main points are and *how* you have structured the presentation and discussion in the remaining chapters.
+After reading the introduction, the reader must know *why* you have done the work, *why* it is interesting, *what* the main points are and *how* you have structured the presentation and discussion in the remaining chapters.
 
-:aside: The <a href="http://libguides.usc.edu/writingguide/CARS">CARS model</a> (Creating a Research Space) is an often used technique for structuring an introduction.
+:aside: The <a href="http://libguides.usc.edu/writingguide/CARS">CARS model</a> (Creating a Research Space) is an often-used technique for structuring an introduction.
 
 
 ### The Background Chapters
 
 The background chapter summarizes all subjects that need introduction and are later used in the thesis. Often, one chapter simply called *Background* will do, with sub-sections for each subject that requires introduction. In some cases you may spread the background in two or even more chapters. You may then assign all of them to a part called *Part 1 – Background*, but there are no formal constrains. It is only important that a reader sees clearly what constitutes background material, and that background material is explained before you start describing your own work.
 
-Since you will often start your work by reading other’s work that constitutes background material, it is a good idea to start writing parts of this section early. Don’t be afraid of some of the material does not make it into the final version.  It provides a good training for writing.
+Since you will often start your work by reading others’ work that constitutes background material, it is a good idea to start writing parts of this section early. Don’t be afraid of some of the material does not make it into the final version.  It provides a good training for writing.
 
 ### The Main Part
 
-The main part is made up from the chapters that cover your work. There is no strict rule how these chapters need to be structured, it all depends on what suites your work best. Usually, these will be around five chapters, but more or less is fine.
+The main part is made up from the chapters that cover your work. There is no strict rule how these chapters need to be structured, it all depends on what suits your work best. Usually, these will be around five chapters, but more or less is fine.
 
 During the writing process, you may have to revise the structure of the chapters. Sometimes you find that sections can be combined, or that a section should be split into several ones. Changing the section structure is often less dramatic as it may sound. If you have well-written paragraphs (more on that later), restructuring sections is easy.
 
@@ -59,7 +59,7 @@ While the first two are in practice mandatory, the outlook in the future is opti
 
 :tip: **Planning has its limits.** You need to plan what to write and where to spend your effort, no question.
 But don't attempt to plan too much, that is, plan too many details.
-At some point, you need to get started with writing the actual content before you can decide if the planned structire actually works.
+At some point, you need to get started with writing the actual content before you can decide if the planned structure actually works.
 
 
 :tip: **How many pages?** One common question is the number of pages the report should have. This is difficult to answer, since the number of pages really does not say anything about the quality of a thesis. In the end, you should use the number of pages that you need to present and discuss your work appropriately.
@@ -72,7 +72,7 @@ This can also help to understand a problem or subject better yourself, and it ca
 
 ## Introduce and Explain all Figures
 
-You must introduce all figures in the text. If possible, you should place the figure *after* you have introduced it in the text. Make also sure that you explain all relevant details of a figure. In diagrams, tell the user what the axes are, in which direction time goes or which notation you are using. Spend effort and walk the reader through the figure, element for element. Also, use long captions under a figure to explain the main points of the figure, even if it is a slight repetinon from the main text. Sometimes readers skim through a thesis, and long captions are an entry point that can convery important results.
+You must introduce all figures in the text. If possible, you should place the figure *after* you have introduced it in the text. Make also sure that you explain all relevant details of a figure. In diagrams, tell the reader what the axes are, in which direction time goes or which notation you are using. Spend effort and walk the reader through the figure, element for element. Also, use long captions under a figure to explain the main points of the figure, even if it is a slight repetition from the main text. Sometimes readers skim through a thesis, and long captions are an entry point that can convey important results.
 
 
 # Develop Arguments
